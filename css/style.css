@@ -305,7 +305,7 @@ a {
 }
 
 .mashrooms {
-    background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%), url("/imgs/NFT\ Highlight.png");
+    background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%), url("../imgs/NFT\ Highlight.png");
     width: 100%;
     aspect-ratio: 12/6.2;
     background-repeat: no-repeat;
