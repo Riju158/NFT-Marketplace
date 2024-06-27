@@ -1,0 +1,243 @@
+@media screen and (max-width:1199px) {
+    p {
+        font-size: 16px !important;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-family: "Space Mono", monospace;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 1;
+    }
+
+    h5 {
+        font-size: 22px;
+    }
+
+
+    section {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .btn {
+        padding: 8px 20px;
+    }
+
+
+    h1 {
+        font-size: 38px;
+        line-height: 110%;
+    }
+
+    .weekly_box {
+        padding: 30px 30px;
+    }
+
+    .text_box {
+        margin-left: 20px;
+    }
+
+    input {
+        height: 40px;
+    }
+
+    .formbtn {
+        position: static;
+        width: 100%;
+        margin-top: 10px;
+
+    }
+
+    .mashrooms h2 {
+        font-size: 38px;
+        font-weight: 600;
+        padding: 20px 0;
+    }
+    
+
+}
+
+@media screen and (max-width:991px) {
+    .all_mg {
+        margin: 30px 0;
+    }
+
+
+    /* ---header--- */
+    .logoimg {
+        width: 150px;
+    }
+
+    .hero_text {
+        margin-right: 10px;
+    }
+
+
+    .img_box {
+        width: 60px;
+        aspect-ratio: 1;
+    }
+
+
+    .creator_num {
+        top: 10px;
+    }
+
+    /* -----browse-------- */
+
+    .browse .card .card-body h5 {
+        font-size: 16px;
+    }
+
+    /* -----------works------ */
+
+    .worksimg_box {
+        width: 160px;
+        height: 160px;
+    }
+
+
+    .work_text_body h5 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .work_text_body p {
+        font-size: 12px !important;
+    }
+
+
+
+    .form {
+        margin-top: 20px;
+
+    }
+
+    .text_box {
+        margin-left: 0px;
+    }
+
+
+    .mashrooms {
+        background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%), url("/imgs/NFT\ Highlight2.png");
+        background-repeat: no-repeat !important;
+        background-size: cover;
+        background-position: center;
+        height: 630px;
+    }
+
+
+}
+
+@media screen and (max-width:767px) {
+    h2 {
+        font-size: 28;
+    }
+
+    h4 {
+        font-family: "Space Mono", monospace;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 1;
+    }
+
+    h5 {
+        font-size: 22px;
+    }
+
+
+    section {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+
+    footer {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+
+
+
+    .btn {
+        padding: 8px 20px;
+        width: 100%;
+    }
+
+
+    h1 {
+        font-size: 28px;
+        line-height: 110%;
+    }
+
+    /* ---header---- */
+    .hero_text {
+        margin-right: 0px;
+    }
+
+    .pc_btn {
+        display: none;
+    }
+
+    .number_part {
+        display: none;
+    }
+
+    .extra {
+        display: block;
+    }
+
+
+    /* ----browse---- */
+    .browse .card .card-body {
+        padding-bottom: 40px !important;
+    }
+
+
+    /* -----------works----------- */
+    .work_text_body {
+        width: 80%;
+    }
+
+
+    /* ----------- */
+    .weekly_box {
+        background: none;
+        border-radius: 20px;
+    }
+
+
+    .mashroomsss {
+        transform: translateY(0%);
+    }
+    
+    .clock_box{
+     margin: auto;
+    }
+
+
+}
+
+@media screen and (max-width:575px) {
+    section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+
+
+}

@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!-- google end -->
+    <title>NFT Marketplace</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- mycss -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark py-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="imgs/Logo.png" alt="" class="logoimg"></a>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-4">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Marketplace</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Rankings</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Connect a wallet</a>
+                                </li>
+                        </div>
+                    </div>
+                    <a class="singbtn btn ms-auto d-none d-lg-block" href=""><i class="bi bi-person"></i> Sing up</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar"> <img src="imgs/nav menu.svg" alt=""></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- hero section -->
+    <section class="heropart">
+        <div class="container">
+            <div class="row  all_mg">
+                <div class="col-md-6 col-12">
+                    <div class="hero_text">
+                        <h1>Discover Digital Art & Collect NFTs</h1>
+                        <p class="hero_para py-2">NFT marketplace UI created with Anima for Figma. Collect, buy and sell
+                            art from
+                            more than 20k
+                            NFT artists.</p>
+                        <a href="" class="btn pc_btn"><i class="bi bi-rocket-takeoff"></i> Get Started</a>
+                        <div class="row number_part">
+                            <div class="col-4">
+                                <h4>240k+ </h4>
+                                <p class="number_text">Total Sale</p>
+                            </div>
+                            <div class="col-4">
+                                <h4>100k+ </h4>
+                                <p class="number_text">Auctions</p>
+                            </div>
+                            <div class="col-4">
+                                <h4>240k+ </h4>
+                                <p class="number_text">Artists</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-10 m-auto">
+                    <div class="card text-light">
+                        <img src="imgs/Image Placeholder.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body py-4">
+                            <h5 class="card-title">Space Walking</h5>
+                            <span><img src="imgs/Avatar1.png" alt="" class="img-fluid"></span> <span>Animakid</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 pt-4">
+                    <div class="extra">
+                        <a href="" class="btn "><i class="bi bi-rocket-takeoff"></i> Get Started</a>
+                        <div class="row text-center pt-4">
+                            <div class="col-4">
+                                <h4>240k+ </h4>
+                                <p class="number_text">Total Sale</p>
+                            </div>
+                            <div class="col-4">
+                                <h4>100k+ </h4>
+                                <p class="number_text">Auctions</p>
+                            </div>
+                            <div class="col-4">
+                                <h4>240k+ </h4>
+                                <p class="number_text">Artists</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- trending -->
+    <section class="trending">
+        <div class="container">
+            <div class="trending_contant all_mg">
+                <div class="section_heading">
+                    <h2>Trending Collection</h2>
+                    <p class="hero_para">Checkout our weekly updated trending collection.</p>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-10 m-auto col-md-6  col-lg-4">
+                        <div class="card trending_card">
+                            <img src="imgs/Primary Photo1.png" alt="" class="trendingimg">
+
+                            <div class="small_wapper_contant d-flex align-items-center justify-content-between pt-4">
+
+                                <div class="small_box">
+                                    <img src="imgs/Secondary Photo1.png" alt="" class="smallimg">
+                                </div>
+
+                                <div class="small_box">
+                                    <img src="imgs/Secondary Photo2.png" alt="" class="smallimg">
+                                </div>
+
+                                <div class="small_box small_box_end">
+                                    <h5 class="text-light ">1025+</h5>
+                                </div>
+                            </div>
+
+                            <div class="card_name pt-3">
+                                <h5>DSGN Animals</h5>
+                                <span><img src="imgs/Asset2.png" alt=""></span> <span>MrFox</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6  col-lg-4 d-none d-md-block">
+                        <div class="card trending_card">
+                            <img src="imgs/Primary Photo2.png" alt="" class="trendingimg">
+
+                            <div class="small_wapper_contant d-flex align-items-center justify-content-between pt-4">
+
+                                <div class="small_box">
+                                    <img src="imgs/Secondary Photo3.png" alt="" class="smallimg">
+                                </div>
+
+                                <div class="small_box">
+                                    <img src="imgs/Secondary Photo4.png" alt="" class="smallimg">
+                                </div>
+
+                                <div class="small_box small_box_end">
+                                    <h5 class="text-light ">1025+</h5>
+                                </div>
+                            </div>
+
+                            <div class="card_name pt-3">
+                                <h5>DSGN Animals</h5>
+                                <span><img src="imgs/Asset3.png" alt=""></span> <span>Shroomie</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-4">
+                        <div class="card trending_card d-none d-lg-block">
+                            <img src="imgs/Primary Photo3.png" alt="" class="trendingimg">
+
+                            <div class="small_wapper_contant d-flex align-items-center justify-content-between pt-4">
+
+                                <div class="small_box">
+                                    <img src="imgs/Secondary Photo5.png" alt="" class="smallimg">
+                                </div>
+
+                                <div class="small_box">
+                                    <img src="imgs/Secondary Photo6.png" alt="" class="smallimg">
+                                </div>
+
+                                <div class="small_box small_box_end">
+                                    <h5 class="text-light ">1025+</h5>
+                                </div>
+                            </div>
+
+                            <div class="card_name pt-3">
+                                <h5>DSGN Animals</h5>
+                                <span><img src="imgs/Asset4.png" alt=""></span> <span>BeKind2Robots</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Top creators -->
+    <section class="creators">
+        <div class="container">
+            <div class="creators all_mg">
+                <div class="section_heading d-flex align-items-center justify-content-between mb-5">
+                    <div class="heading_text">
+                        <h2>Top creators</h2>
+                        <p class="hero_para">Checkout Top Rated Creators on the NFT Marketplace</p>
+                    </div>
+                    <button class="btn btn2 d-none d-md-block"><i class="bi bi-rocket-takeoff"></i> View
+                        Rankings</button>
+                </div>
+
+                <div class="row  row-cols-1 row-cols-md-2 row-cols-lg-4  g-3 g-lg-4 mb-4">
+                    <div class="col">
+                        <div class="card">
+                            <div
+                                class="creator_box d-flex align-items-center justify-content-center flex-lg-column flex-row gap-4">
+                                <figure class="img_box">
+                                    <img src="imgs/creators1.png" alt="" class="creatorimg">
+                                </figure>
+                                <div class="creator_info text-start text-lg-center text-light ">
+                                    <h5>Keepitreal</h5>
+                                    <p class="total_sale">Total Sales:<span class="total_sale_num text-light"> 34.53
+                                            ETH</span></p>
+                                </div>
+                                <div class="creator_num">1</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div
+                                class="creator_box d-flex align-items-center justify-content-center flex-lg-column flex-row gap-4">
+                                <figure class="img_box">
+                                    <img src="imgs/creators2.png" alt="" class="creatorimg">
+                                </figure>
+                                <div
+                                    class="creator_info text-start text-lg-centertext-start text-lg-center  text-light ">
+                                    <h5>DigiLab</h5>
+                                    <p class="total_sale">Total Sales:<span class="total_sale_num text-light"> 34.53
+                                            ETH</span></p>
+                                </div>
+                                <div class="creator_num">2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div
+                                class="creator_box d-flex align-items-center justify-content-center flex-lg-column flex-row gap-4">
+                                <figure class="img_box">
+                                    <img src="imgs/creators3.png" alt="" class="creatorimg">
+                                </figure>
+                                <div class="creator_infotext-start text-lg-center  text-light ">
+                                    <h5>GravityOne</h5>
+                                    <p class="total_sale">Total Sales:<span class="total_sale_num text-light"> 34.53
+                                            ETH</span></p>
+                                </div>
+                                <div class="creator_num">3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div
+                                class="creator_box d-flex align-items-center justify-content-center flex-lg-column flex-row gap-4">
+                                <figure class="img_box">
+                                    <img src="imgs/creators4.png" alt="" class="creatorimg">
+                                </figure>
+                                <div class="creator_info text-start text-lg-center text-light ">
+                                    <h5>Juanie</h5>
+                                    <p class="total_sale">Total Sales:<span class="total_sale_num text-light"> 34.53
+                                            ETH</span></p>
+                                </div>
+                                <div class="creator_num">4</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div
+                                class="creator_box d-flex align-items-center justify-content-center flex-lg-column flex-row gap-4">
+                                <figure class="img_box">
+                                    <img src="imgs/creators5.png" alt="" class="creatorimg">
+                                </figure>
+                                <div class="creator_info text-start text-lg-center  text-light ">
+                                    <h5>BlueWhale</h5>
+                                    <p class="total_sale">Total Sales:<span class="total_sale_num text-light"> 34.53
+                                            ETH</span></p>
+                                </div>
+                                <div class="creator_num">5</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div
+                                class="creator_box d-flex align-items-center justify-content-center flex-lg-column flex-row gap-4">
+                                <figure class="img_box">
+                                    <img src="imgs/creators6.png" alt="" class="creatorimg">
+                                </figure>
+                                <div class="creator_info text-start text-lg-center  text-light ">
+                                    <h5>Mr Fox</h5>
+                                    <p class="total_sale">Total Sales:<span class="total_sale_num text-light"> 34.53
+                                            ETH</span></p>
+                                </div>
+                                <div class="creator_num">6</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-none d-lg-block">
+                        <div class="card">
+                            <div
+                                class="creator_box d-flex align-items-center justify-content-center flex-lg-column flex-row gap-4">
+                                <figure class="img_box">
+                                    <img src="imgs/creators7.png" alt="" class="creatorimg">
+                                </figure>
+                                <div class="creator_info text-start text-lg-center  text-light ">
+                                    <h5>Shroomie</h5>
+                                    <p class="total_sale">Total Sales:<span class="total_sale_num text-light"> 34.53
+                                            ETH</span></p>
+                                </div>
+                                <div class="creator_num">7</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-none d-lg-block">
+                        <div class="card">
+                            <div
+                                class="creator_box d-flex align-items-center justify-content-center flex-lg-column flex-row gap-4">
+                                <figure class="img_box">
+                                    <img src="imgs/creators8.png" alt="" class="creatorimg">
+                                </figure>
+                                <div class="creator_info text-start text-lg-center  text-light ">
+                                    <h5>Robotica</h5>
+                                    <p class="total_sale">Total Sales:<span class="total_sale_num text-light"> 34.53
+                                            ETH</span></p>
+                                </div>
+                                <div class="creator_num">8</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-none d-lg-block">
+                        <div class="card">
+                            <div
+                                class="creator_box d-flex align-items-center justify-content-center flex-lg-column flex-row gap-4">
+                                <figure class="img_box">
+                                    <img src="imgs/creators9.png" alt="" class="creatorimg">
+                                </figure>
+                                <div class="creator_info text-start text-lg-center  text-light ">
+                                    <h5>RustyRobot</h5>
+                                    <p class="total_sale">Total Sales:<span class="total_sale_num text-light"> 34.53
+                                            ETH</span></p>
+                                </div>
+                                <div class="creator_num">9</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-none d-lg-block">
+                        <div class="card">
+                            <div
+                                class="creator_box d-flex align-items-center justify-content-center flex-lg-column flex-row gap-4">
+                                <figure class="img_box">
+                                    <img src="imgs/creators10.png" alt="" class="creatorimg">
+                                </figure>
+
+                                <div class="creator_info text-start text-lg-center  text-light ">
+                                    <h5>Aimakid</h5>
+                                    <p class="total_sale">Total Sales:<span class="total_sale_num text-light"> 34.53
+                                            ETH</span></p>
+                                </div>
+                                <div class="creator_num">10</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-none d-lg-block">
+                        <div class="card">
+                            <div
+                                class="creator_box d-flex align-items-center justify-content-center flex-lg-column flex-row gap-4">
+                                <figure class="img_box">
+                                    <img src="imgs/creators11.png" alt="" class="creatorimg">
+                                </figure>
+                                <div class="creator_info text-start text-lg-center  text-light ">
+                                    <h5>Dotgu</h5>
+                                    <p class="total_sale">Total Sales:<span class="total_sale_num text-light"> 34.53
+                                            ETH</span></p>
+                                </div>
+                                <div class="creator_num">11</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-none d-lg-block">
+                        <div class="card">
+                            <div
+                                class="creator_box d-flex align-items-center justify-content-center flex-lg-column flex-row gap-4">
+                                <figure class="img_box">
+                                    <img src="imgs/creators12.png" alt="" class="creatorimg">
+                                </figure>
+                                <div class="creator_info text-start text-lg-center  text-light ">
+                                    <h5>Ghiblier</h5>
+                                    <p class="total_sale">Total Sales:<span class="total_sale_num text-light"> 34.53
+                                            ETH</span></p>
+                                </div>
+                                <div class="creator_num">12</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="btn btn2 d-block d-md-none"><i class="bi bi-rocket-takeoff"></i> View Rankings</button>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- browse -->
+    <section class="browse">
+        <div class="container">
+            <div class="trending_contant all_mg">
+                <div class="section_heading mb-5">
+                    <h2>Browse Categories</h2>
+                </div>
+
+                <div class="row row-cols-2 row-cols-sm-4 row-cols-lg-4 g-3 g-lg-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="imgs/browse1.png" class="card-img-top img-fluid" alt="...">
+                            <div class="card-body py-4">
+                                <h5 class="card-text text-light text-start">Art</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="imgs/browse2.png" class="card-img-top" alt="...">
+                            <div class="card-body py-4">
+                                <h5 class="card-text text-light text-start">Collectibles</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="imgs/browse3.png" class="card-img-top" alt="...">
+                            <div class="card-body py-4">
+                                <h5 class="card-text text-light text-start">Music</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="imgs/browse4.png" class="card-img-top" alt="...">
+                            <div class="card-body py-4">
+                                <h5 class="card-text text-light text-start">Photography</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="imgs/browse5.png" class="card-img-top" alt="...">
+                            <div class="card-body py-4">
+                                <h5 class="card-text text-light text-start">Video</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="imgs/browse6.png" class="card-img-top" alt="...">
+                            <div class="card-body py-4">
+                                <h5 class="card-text text-light text-start">Utility</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="imgs/browse7.png" class="card-img-top" alt="...">
+                            <div class="card-body py-4">
+                                <h5 class="card-text text-light text-start">Sport</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="imgs/browse8.png" class="card-img-top" alt="...">
+                            <div class="card-body py-4">
+                                <h5 class="card-text text-light text-start">Virtual Worlds</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- discover -->
+    <section class="Discover_more">
+        <div class="container">
+            <div class="creators all_mg">
+                <div class="section_heading d-flex align-items-center justify-content-between mb-5">
+                    <div class="heading_text">
+                        <h2>Discover More NFTs</h2>
+                        <p class="hero_para">Explore new trending NFTs</p>
+                    </div>
+                    <button class="btn btn2 d-none d-md-block"><i class="bi bi-eye"></i> See All</button>
+                </div>
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 mb-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="imgs/discover1.png" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h5 class="card-title">Distant Galaxy</h5>
+                                <p class="card-text"><span><img src="imgs/Asset5.png" alt=""></span> MoonDancer</p>
+                            </div>
+                            <div class="card-end card-body d-flex align-items-center justify-content-between">
+                                <div class="price">
+                                    <span class="chng_color">Price</span>
+                                    <p>1.63 ETH</p>
+                                </div>
+                                <div class="bid text-end">
+                                    <span class="chng_color">Highest Bid</span>
+                                    <p>0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="imgs/discover2.png" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h5 class="card-title">Life On Edena</h5>
+                                <p class="card-text"><span><img src="imgs/Asset6.png" alt=""></span> NebulaKid</p>
+                            </div>
+                            <div class="card-end card-body d-flex align-items-center justify-content-between">
+                                <div class="price">
+                                    <span class="chng_color">Price</span>
+                                    <p>1.63 ETH</p>
+                                </div>
+                                <div class="bid text-end">
+                                    <span class="chng_color">Highest Bid</span>
+                                    <p>0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col   d-lg-block d-sm-block d-md-none">
+                        <div class="card">
+                            <img src="imgs/discover3.png" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h5 class="card-title">AstroFiction</h5>
+                                <p class="card-text"><span><img src="imgs/Avatar7.png" alt=""></span> Spaceone</p>
+                            </div>
+                            <div class="card-end card-body d-flex align-items-center justify-content-between">
+                                <div class="price">
+                                    <span class="chng_color">Price</span>
+                                    <p>1.63 ETH</p>
+                                </div>
+                                <div class="bid text-end">
+                                    <span class="chng_color">Highest Bid</span>
+                                    <p>0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <button class="btn btn2 d-block d-md-none"><i class="bi bi-eye"></i> See All</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="mashrooms">
+        <div class="container">
+            <div class="row align-items-end  mashroomsss mb-4">
+                <div class="col-12 col-md-6 ">
+                    <button class="mashroombtn"><img src="imgs/Asset3.png" alt=""> Shroomie</button>
+                    <h2>Magic Mashrooms</h2>
+                    <button class="btn btn2 btn3 d-none d-md-block "><i class="bi bi-eye"></i> See NFT</button>
+                </div>
+                <div class="col-12 col-md-6 ">
+                    <div class="clock_box  ms-auto">
+                        <div class="mainbox ">
+                            <span class="">Auction ends in:</span>
+                            <div class="time d-flex align-items-center justify-content-between text-center mt-2">
+                                <div class="hours">
+                                    <h3>59</h3>
+                                    <span>Hours</span>
+                                </div>
+
+                                <div class="minutes">
+                                    <h3>59</h3>
+                                    <span>Minutes</span>
+                                </div>
+
+                                <div class="seconds">
+                                    <h3>59</h3>
+                                    <span>Seconds</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn2 btn3 d-block d-md-none "><i class="bi bi-eye"></i> See All</button>
+        </div>
+    </section>
+
+    <!-- How its works -->
+    <section class="works">
+        <div class="container">
+            <div class="trending_contant all_mg">
+                <div class="section_heading mb-5">
+                    <h2>How it works</h2>
+                    <p class="hero_para">Find out how to get started</p>
+                </div>
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div
+                            class="card h-100 flex-row flex-md-column align-items-center justify-content-center  p-2 p-lg-4">
+                            <figure class="worksimg_box m-auto d-flex align-items-center justify-content-center">
+                                <img src="imgs/works3.png" class="card-img-top  work_img" alt="...">
+                            </figure>
+                            <div class="card-body text-light text-start text-md-center work_text_body p-0 py-md-4">
+                                <h5 class="card-title">Setup Your wallet</h5>
+                                <p class="card-text">Set up your wallet of choice. Connect it to the Animarket by
+                                    clicking the wallet icon in the top right corner.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div
+                            class="card h-100 flex-row flex-md-column align-items-center justify-content-center  p-2 p-lg-4">
+                            <figure class="worksimg_box m-auto d-flex align-items-center justify-content-center">
+                                <img src="imgs/works3.png" class="card-img-top work_img" alt="...">
+                            </figure>
+                            <div class="card-body text-light text-start text-md-center work_text_body p-0 py-md-4">
+                                <h5 class="card-title">Create Collection</h5>
+                                <p class="card-text">Upload your work and setup your collection. Add a description,
+                                    social links and floor price.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div
+                            class="card h-100 flex-row flex-md-column align-items-center justify-content-center  p-2 p-lg-4">
+                            <figure class="worksimg_box m-auto d-flex align-items-center justify-content-center">
+                                <img src="imgs/works3.png" class="card-img-top work_img" alt="...">
+                            </figure>
+                            <div class="card-body text-light text-start text-md-center work_text_body p-0 py-md-4">
+                                <h5 class="card-title">Start Earning</h5>
+                                <p class="card-text">Choose between auctions and fixed-price listings. Start earning by
+                                    selling your NFTs or trading others.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Join our weekly digest -->
+    <section class="weekly">
+        <div class="container">
+            <div class="weekly_box all_mg">
+                <div class="row row-cols-1 row-cols-md-2 align-items-center g-4">
+                    <div class="col">
+                        <figure class="endimg m-0">
+                            <img src="imgs/Photo.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <div class="text_box">
+                            <h2>Join our Weekly Digest</h2>
+                            <p class="hero_para">Get exclusive promotions & updates straight to your inbox.</p>
+
+                            <div class="form">
+                                <input type="email" placeholder="Enter your email here" name="" id="">
+
+                                <button class="btn formbtn text-light"><i class="bi bi-envelope"></i> Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer_contant">
+                <div class="row row-cols-1 row-cols-lg-3 g-5">
+                    <div class="col">
+                        <div class="footer_left h-100">
+                            <a href=""><img src="imgs/Logo.png" alt="" class="mb-4"></a>
+                            <p>NFT marketplace UI created with Anima for Figma.</p>
+                            <div class="social_icon">
+                                <p>Join our community</p>
+                                <a href=""> <i class="bi bi-discord"></i></a>
+                                <a href=""> <i class="bi bi-youtube"></i></a>
+                                <a href=""> <i class="bi bi-twitter"></i></a>
+                                <a href=""> <i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer_midil mx-0 mx-lg-5 h-100">
+                            <h4>Explore</h4>
+                            <ul class="p-0 d-flex flex-column gap-3 m-0 mt-3 ">
+                                <a href="">Marketplace</a>
+                                <a href="">Rankings</a>
+                                <a href="">Connect a wallet</a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer_right h-100">
+                            <h4>Join our Weekly Digest</h4>
+                            <p>Get exclusive promotions & updates straight to your inbox.</p>
+                            <div class="form">
+                                <input type="email" placeholder="Enter your email here" name="" id="">
+
+                                <button class="btn formbtn text-light"><i class="bi bi-envelope"></i> Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="footerend">
+                    <p>Ⓒ NFT Market. Use this template freely.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
