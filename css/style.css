@@ -363,7 +363,33 @@ a {
     margin: 0;
 }
 
-.btn3{
+.time span {
+    font-size: 38px;
+    position: relative;
+    font-weight: 600;
+}
+
+.time span::after {
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    font-weight: 400;
+}
+
+#hrs::after {
+    content: 'Hours';
+}
+
+#min::after {
+    content: 'Minutes';
+}
+
+#sec::after {
+    content: 'Seconds';
+}
+
+.btn3 {
     background-color: #FFFFFF;
     color: black;
 }
